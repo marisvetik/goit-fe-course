@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto 0 auto;
+}
+
+.clearfix {
+    display: table;
+    content:"";
+    clear:both;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+li { 
+    list-style: none;
+}
+
+nav { 
+    margin-bottom: 98px;
+    margin-top: 40px;
+}
+
+.logo {
+    display: inline-block;
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    color: #555252;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.logo::first-letter {
+    font-weight: 900;
+    cursor: pointer;
+    color: rgb(78, 198, 171);
+}
+.site-navigation {
+    margin-top: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 464px;
+    float: right;
+}
+
+.site-navigation li {
+    float: left;
+    font-size: 14px;
+    line-height: 11px; 
+    margin-right: 34px;  
+    letter-spacing: -0.05em;  
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;  
+}
+
+.site-navigation a {
+    display: block;
+    text-decoration: none;
+    color:#0f0101;
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+}
+
+.site-navigation a:hover,.site-navigation a:focus {
+    color:rgb(26, 188, 156);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color:rgb(81, 81, 81);
+    text-align: center;
+    margin-bottom: 92px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2::after {
+    content:"";
+    background-color:rgb(26, 188, 156);
+    height:8px;
+    width: 164px;
+    display: block;
+    margin: 24px auto 0;
+}
+
+h2:last-of-type {
+    margin-bottom: 80px;
+}
+
+.products {
+    margin-bottom: 100px;
+}
+ 
+.products-list {
+    text-transform: uppercase;
+}
+
+.products-list-item { 
+    width: 254px;
+    height: 320px;
+    font-size: 18px;
+    line-height: 32px;
+    float: left;
+    background-color:rgb(232, 239, 252);
+    font-family: 'Open Sans', semi-bold;
+    margin-right: 30px;
+    font-weight: 700;
+    position: relative;
+}
+
+.products-list-item:nth-child(4n){
+    margin-right: 0;
+}
+
+.products-list-item:not(:nth-child(n+5)) {
+    margin-bottom: 30px;
+}
+
+.products-list-item p {
+    background-color:rgb(50,50,50);
+    color:white;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+.products-list-item:hover .effectgreen {
+background-color:rgb(26,188,156);
+} 
+
+.products-list-item .price {
+    position: absolute;
+    display: inline-block;
+    color:white;
+    line-height: 40px;
+    height: 40px;
+    width: 54px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.439);  
+    right: 0;
+    padding: 0; 
+    bottom: -4px;
+}
+
+.img-container {
+    height: 284px;
+    position: relative; 
+}
+
+.img-container img{
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.news {
+    margin-bottom: 80px;
+}
+
+.news-list-item {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+
+.news-list-item:last-child {
+    margin-right: 0;
+}
+
+.news-list-item img {
+    margin-bottom: 13px;
+}
+
+.news p:first-of-type {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    font-size: 18px;
+    color:#555252;
+    line-height: 26px; 
+    margin-bottom: 23px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+.news-title::after {
+    content:"";
+    background-color:rgb(26, 188, 156);
+    height: 3px;
+    width: 132px;
+    display: block;
+    margin: 14px 0 0;
+}
+
+.news p:last-of-type {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    color:#555252;
+    padding-right: 15px;
+    margin-bottom: 12px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300; 
+    line-height: 26px;
+    color:white;
+    padding: 14px 44px;
+    cursor: pointer;
+    background-color:rgb(26, 188, 156);
+    border: none;
+    border-radius: 3px;  
+}
