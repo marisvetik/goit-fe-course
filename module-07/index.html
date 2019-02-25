@@ -11,7 +11,9 @@
     <div class="wrapper">
         <header>
             <nav>
-                <h1 class="logo">Golden</h1>
+                <a href="#" class="logo">
+                    <span>Golden</span>
+                    </a>
                 <ul class="site-navigation">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
@@ -52,17 +54,21 @@
         </ul>
     </section>
 
-    <section class="contact form wrapper">
+    <section class="contact-us-wrapper">
+        <div class="wrapper">
         <h2>Contact us</h2>
         <p>Proin iaculis purus consequat sem cure.</p> 
         <form action="#">
-        <input type="text" name="name" placeholder="Your name *">
-        <input type="email" name="email" placeholder="Your e-mail *">
-        <input type="text" name="subject" placeholder="Subject">
-        <textarea name="Your message" rows="5" cols="45" placeholder="Your message *">
-        </textarea>
+            <div class="form-wrapper">
+        <input type="text" name="name" id="name" placeholder="Your name *" required>
+        <input type="email" name="email" id="email" placeholder="Your e-mail *" required>
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+        <textarea name="message" placeholder="Your message *" required></textarea>
+        </div>
         <input type="button" value="Send message">
        </form>
+    </div>
+    </section>
 </body>
 </html>
  
