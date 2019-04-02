@@ -15,8 +15,10 @@ img {
 }
 
 
-.head-container {
-    background:   rgb(26, 25, 21) url("../module-08/img/Banner.png") center center ;   
+.container {
+    background:   rgb(26, 25, 21) url("./img/Banner.png") center center ;  
+    /* background-position-x: center;
+    background-position-y: center; */
     background-size: cover;
 }
 
@@ -26,12 +28,7 @@ header {
          
 }
 
-header p {
-    letter-spacing: 1px;
-}
-
 header h2 {
-    letter-spacing: px;
     font-size: 20px;
 }
 
@@ -103,7 +100,7 @@ header button {
     border-style: solid;
     border-width: 2px;
     border-color: rgb(255, 78, 80);
-    background-color: rgba(255, 255, 255, 01);    
+    background-color: rgba(255, 255, 255, 1);    
     color:rgb(255, 78, 80);        
 }
 
@@ -143,7 +140,7 @@ header button {
     position: relative;
 }
 
-.img-container:after{
+.img-container:after {
     content: "";
     border-style: solid;
     border-width: 4px;
@@ -152,8 +149,8 @@ header button {
     width: 30px;
     height: 30px;
     position: absolute;
-    bottom: -3%;
-    right: 20.5%;
+    bottom: -4%;
+    right: 20%;
       
 }
 
