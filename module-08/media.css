@@ -1,4 +1,6 @@
 @media (min-width:320px) and (max-width:767px) {
+    
+
     .wrapper {
         max-width: 320px;
         padding-left: 20px;
@@ -57,7 +59,12 @@
 } 
 
 @media (min-width:768px) and (max-width:1439px) {
+    .container {
     
+        background-size: auto;
+        
+        }
+
     .wrapper {
         max-width: 768px;
         padding-left: 48px;
@@ -73,7 +80,7 @@
     .header-wrapper {
         display: flex;
         flex-direction: row-reverse;
-        margin-bottom: 142px;
+        margin-bottom: 0;
         justify-content: space-between;
     }
 
@@ -85,7 +92,7 @@
     
 
     nav {
-        margin-bottom: 116px;
+        margin-bottom: 70px;
 
     }
     
@@ -105,11 +112,6 @@
         padding:0 58px;
     }
     
-
-    nav {
-        margin-bottom: 116px;
-
-    }
     .features {
         padding-bottom: 56px;
     }
@@ -150,7 +152,11 @@
 
 
  @media (min-width:1440px) {
-
+.container {
+    
+        background-size: cover;
+        
+        }
     .wrapper {
         max-width: 1440px;
         padding-left: 250px;
