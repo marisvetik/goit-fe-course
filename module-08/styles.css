@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin:0 auto;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+}
+
+header, h2, h4, button{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2, h4, h1{
+text-align: center;
+}
+
+.bgcontainer{
+    background:   rgb(26, 25, 21) url("../img/banner.png") center center ;   
+    background-size: cover;
+}
+
+
+header{
+     color:#ffffff;
+    
+       
+}
+
+header p, p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header h2{
+    letter-spacing: 3px;
+    font-size:20px;
+}
+
+header p{
+    letter-spacing: 1px;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 14px;
+    line-height:36px;
+    letter-spacing: 1px;
+    border: solid 2px rgba(255, 255, 255, 0); 
+    width: 92px;     
+    border-radius:19px;
+    height:38px;
+    padding:6px 16px;
+    transition: all 0.3s;
+}
+
+.menu a:hover,.menu a:focus{border: solid 2px rgba(255, 255, 255, 1);
+}
+
+
+.menu{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    justify-content: flex-start;
+    margin:0 auto;
+    padding:0 44px;
+}
+
+button{
+        margin:0 auto;
+        border:none;
+        border-radius: 20px;
+        line-height: 40px;
+        display:block;
+        cursor:pointer;
+}
+
+header button{
+    background-color: rgb(255, 78, 80);
+    color:#ffffff;      
+}
+
+.features button{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    background-color: rgba(255, 255, 255, 01);    
+    color:rgb(255, 78, 80);        
+}
+
+.features h2{
+    font-size: 22px;
+    color:#333333;  
+}
+
+.features p{
+    color:#666666;
+}
+.features {
+    padding-top:75px;
+}
+
+.features-list{
+    list-style: none;
+    
+}
+
+.features-list-item{
+    position:relative;
+    
+}
+
+.features-list-item img{
+    margin:0 auto 16px auto;
+    border-radius:50%;
+    height:122px;
+    
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container:after{
+    content:"";
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    bottom:-3%;
+    right:20.5%;
+      
+}
+
+.features-list-item:nth-child(1) .img-container:after{
+    background:url("../img/icon-tv.png") center center;
+}
+
+.features-list-item:nth-child(2) .img-container:after{
+    background:url("../img/icon-can.png") center center;
+}
+
+.features-list-item:nth-child(3) .img-container:after{
+    background:url("../img/icon-coffe.png") center center;
+}
+
+.features-list-item:nth-child(4) .img-container:after{
+    background:url("../img/icon-plane.png") center center;
+}
+
+.features-list-item h4{
+    margin-bottom: 22px;
+}
+
+
