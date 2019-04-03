@@ -1,0 +1,238 @@
+@media (min-width:320px) and (max-width:767px) {
+    
+
+    .wrapper {
+        max-width: 320px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        padding-bottom: 136px;
+        padding-top: 22px;
+        background-size: cover;
+    }
+
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 34px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-bottom: 16px;
+        padding:0 32px;
+    }
+
+    nav {
+        margin-bottom: 116px;
+
+    } 
+
+    header button {
+        width: 100%;    
+    }
+
+    h1 {
+        margin-bottom: 16px;
+        font-size: 26px;
+    
+    }
+
+    .features {
+        padding-bottom: 60px;
+    }
+
+    .features h2 {
+        margin-bottom: 20px;
+    }
+
+    .features button{
+        width: 100%;  
+    }
+
+    .features-list-item {
+        margin: 0 auto 26px auto;
+        width: 232px;
+    }
+} 
+
+@media (min-width:768px) and (max-width:1439px) {
+    .container {
+    
+        background-size: auto;
+        
+        }
+
+    .wrapper {
+        max-width: 768px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    header {
+        padding-bottom: 150px;
+        padding-top: 40px;
+        background-size: cover;
+    }
+
+    .header-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+
+    h1 {
+        margin-bottom: 34px;
+        font-size: 52px;
+        padding:0 58px;
+    }
+    
+
+    nav {
+        margin-bottom: 70px;
+
+    }
+    
+    header p{
+        margin-bottom: 34px;
+        padding:0 28px;
+        font-size: 24px;
+       
+    }
+
+    header button {
+        width: 224px;      
+    }
+    h1 {
+        margin-bottom: 34px;
+        font-size: 52px;
+        padding:0 58px;
+    }
+    
+    .features {
+        padding-bottom: 56px;
+    }
+
+    .features h2 {  
+        margin-bottom: 34px;
+    }
+
+    .features button {    
+        width: 196px;         
+    }
+
+    .features-list {
+        width: 492px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }   
+    
+    .features-list-item {
+        width: 234px; 
+        margin-bottom: 30px;
+    }
+
+    .features-list-item:nth-child(2){
+        order:2;}
+
+    .features-list-item:nth-child(3){
+        order:1;}
+        
+    .features-list-item:nth-child(4){
+        order:3;}
+} 
+
+
+ @media (min-width:1440px) {
+.container {
+    
+        background-size: cover;
+        
+        }
+    .wrapper {
+        max-width: 1440px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    header {
+        padding-bottom: 232px;
+        padding-top: 38px;
+        background-size: cover;
+    } 
+
+    .header-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 146px;
+        justify-content: space-between;
+    }
+
+    h1 {
+        margin-bottom: 34px;
+        font-size: 52px;
+        padding:0 158px;
+
+    }
+    
+
+    nav {
+        margin-bottom: 116px;
+
+    }
+    
+    header p{
+        margin-bottom: 34px;
+        padding:0 30px;
+        font-size: 24px;
+       
+    }
+
+    header button {
+        width: 226px;     
+    }
+
+    .features {
+        padding-bottom: 72px;
+    }
+
+    .features h2{  
+        margin-bottom: 36px;
+    }
+
+    .features button {
+        width: 196px;         
+    }
+
+    .features-list {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }   
+    
+    .features-list-item {
+        width:236px; 
+        margin-bottom: 28px;
+    }
+
+    .features-list-item:nth-child(2){
+        order:2;}
+
+    .features-list-item:nth-child(3){
+        order:1;}
+        
+    .features-list-item:nth-child(4){
+        order:3;}
+} 
+
+
