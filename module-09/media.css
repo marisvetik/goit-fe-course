@@ -59,14 +59,14 @@
     }
     .img-container:after {
         bottom: -2%;
-        right: 42%;
+        right: 30%;
     }
 } 
 
 @media (min-width:768px) and (max-width:1439px) {
     .img-container:after {
         bottom: -2%;
-        right: 42%;
+        right: 26%;
     }
     .header-wrapper {
         max-width: 768px;
@@ -154,7 +154,7 @@
 
     .img-container:after {
         bottom: -2%;
-        right: 46%;
+        right: 33%;
     }
 
     h1 {
