@@ -1,0 +1,58 @@
+header-background
+
+header-wrapper
+
+button
+
+header
+
+section-name
+
+description-text
+
+list
+    header__logo
+    header__navigation
+    header__navigation-list
+    header__navigation-item
+    header__navigation-item-link
+    header__navigation-item-icon
+    header__welcome-text section-name
+    header__button
+
+features
+    features__headline-text upper-section-name
+    section-name
+    features__list
+    features__list-item features-item  
+                            features-item__icon
+                            features-item__headline
+                            description-text
+
+team
+
+    section-name
+    description-text team__description-text 
+    team__list 
+    team__list-item  team-list-item 
+                        team-list-item__contain
+                        team-list-item__social-list
+                        team-list-item__social-icon team-list-item__social-icon--large
+                        team-list-item__avatar
+                        team-list-item__name
+                        team-list-item__occupation description-text
+footer
+    footer__copyright-text
+    footer__author-link
+    footer__form
+    footer__email
+    footer__subscribe-button
+
+     <img src="img/team/dix.jpg" alt="">  
+
+                    <div class="bg">
+
+                    </div>
+
+                    <h4 class="">Matthew Dix</h4>
+                    <p class="">Graphic Design</p>
